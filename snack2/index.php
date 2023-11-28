@@ -17,13 +17,13 @@
 
     <form action="logincheck.php" method="get">
       <label for="name" class="py-4">Name:</label>
-      <input type="text" name="name" required><br>
+      <input type="text" name="name"><br>
 
       <label for="mail" class="py-4">Email:</label>
-      <input type="email" name="mail" required><br>
+      <input type="text" name="mail"><br>
 
       <label for="age" class="py-4">Age:</label>
-      <input type="text" name="age" required><br>
+      <input type="text" name="age"><br>
 
       <input type="submit" class="btn btn-primary " value="Check">
     </form>
